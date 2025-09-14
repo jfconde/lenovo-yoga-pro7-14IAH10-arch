@@ -193,6 +193,9 @@ sudo pacman -S okteta
 
 Now, open okteta, and open the `dsdt.dat` file that we dumped in the first step.
 
+If you want a summary of what we are going to do, here it is:
+![](https://raw.githubusercontent.com/jfconde/lenovo-yoga-pro7-14IAH10-arch/refs/heads/main/images/screen_4.png)
+
 The first 32 bytes should look like this in hexadecimal / char:
 
 ```
