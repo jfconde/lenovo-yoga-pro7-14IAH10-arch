@@ -234,7 +234,7 @@ will not be accepted by the kernel. ChatGPT explains it better than me:
 
 > The DSDT checksum is an 8-bit value stored in the ACPI Differentiated System Description Table (DSDT) header that ensures the table’s integrity. It’s calculated so that the sum of all bytes in the table, including the checksum field itself, equals zero modulo 256.
 
-If you want a script to calculate and set the checksum byte correctly in python, here you go (made quickly with AI, but it works).
+If you want a script to calculate and set the checksum byte correctly in [python](https://raw.githubusercontent.com/jfconde/lenovo-yoga-pro7-14IAH10-arch/refs/heads/main/recalc_api_checksum.py), here you go (made quickly with AI, but it works).
 
 But in our case, we have the advantage that we know the previous checksum and we know
 that we have increase the sum of all bytes by 2, because we incremented 2 different locations/bytes.
